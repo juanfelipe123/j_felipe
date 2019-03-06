@@ -1,0 +1,44 @@
+<html>
+<head><title>informacion sobre producto</title></head>
+<body>
+
+<h3>informacion sobre producto</h3>
+
+
+<form action="maneja_formulario.php" method="post">
+  <fieldset>
+    <legend>Datos basicos</legend>
+   nombre<br/>
+<input type="text" name="nombre" value="" /> 
+<br>
+
+</br>
+   <label for="descripcion">descripcion</label> <br/>
+<textarea id="descripcion" name="descripcion" cols="40" rows="5"> </textarea>
+
+    <br>
+    
+    foto  <input type="file" name="adjunto" value="" size="6" maxlength="9" />
+  </br>
+    
+     <input  type="checkbox" /> añadir contador de visitas
+
+
+  </fieldset>
+ <fieldset> 
+ <legend>Datos economicos</legend>
+ <pre>precio <input type="text" name="" value="" />€    impuestos  <select id="so" name="so"> <option value="" selected="4%">4%</option> <option value="" selected="7%">7%</option><option value="" selected="16%">16%</option><option value="" selected="25%">25%</option></select></pre>
+ <br>
+ 
+ </br>
+ promocion<br/>
+ 
+ <input type="radio" name="ninguno" value=""/>ninguno <br/>
+ <input type="radio" name="transportegratuito" value=""/>transporte gratuito<br/>
+ <input type="radio" name="descuento" value=""/>descuento 5%
+ 
+ </fieldset>
+  
+</form>
+</body>
+</html>
