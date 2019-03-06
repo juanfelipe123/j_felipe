@@ -1,0 +1,39 @@
+<html>
+<head><title>rellena tu CV</title></head>
+<body>
+
+<h3>Rellena tu cv</h3>
+
+
+<form action="maneja_formulario.php" method="post">
+  <fieldset>
+    <legend>Datos personales</legend>
+   provincia<br/>
+    <select id="so" name="so">
+  <option value="" selected="selected">- selecciona -</option>
+ 
+  <option value="otro">Otro</option>
+</select>
+<br>
+
+</br>
+    Fecha de nacimiento <br/>
+    <input type="text" name="dia" value="" /> de <select id="so" name="so"> <option value="" selected="enero">enero</option> <option value="" selected="febrero">febrero</option></select> de <input type="text" name="año" value="" />
+    <br>
+    
+  </br>
+    
+
+<label for="descripcion">Temas de interes</label> <br/>
+<textarea id="descripcion" name="descripcion" cols="40" rows="5">Administracion de base de datos  analisis y programacion
+arquitectura
+calidad
+ERP, CRM, Business inteligence
+otros
+otros</textarea>
+  </fieldset>
+
+  
+</form>
+</body>
+</html>
