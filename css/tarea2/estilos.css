@@ -1,10 +1,36 @@
-body{font-family: "courir new", courier, monospace;}
+h1{text-align: center;}
+legend{/*border:1px solid black;*/
+     border-style: solid;
+     border-color:black;
+     border-width: thin;
+    border-radius: 25px;}
+
+#tabla1{
+	background-color: lightgrey;
+	border-radius: 25px; 
+}
+
+#tabla2 {
+		background-color: orange;
+	border-radius: 25px; 
+}
+#tabla3 {
+		background-color: brown;
+	border-radius: 25px; 
+}
+ul { list-style-type: none }
+
+
+
+
 /**h2{
 	color:green;
 	
 }
 h1 {color:red}
 li{color:blue;}**/
+/**body{font-family: "courir new", courier, monospace;}**/
+/**
 #titulo{ background:gray;
 color:white;
  }
@@ -24,4 +50,4 @@ h3[class="antes"]{background:pink
 
  }
 a{border:8px solid green;}
-img[alt="ejemplo"]{border:1px solid grey;}
+img[alt="ejemplo"]{border:1px solid grey;}**/
