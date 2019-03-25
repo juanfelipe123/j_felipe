@@ -5,6 +5,23 @@ body{font-family: "courir new", courier, monospace;}
 }
 h1 {color:red}
 li{color:blue;}**/
-#titulo{background:grey; 
-   color:white;
+#titulo{ background:gray;
+color:white;
+ }
+.ejemplo {background: blue
+color:white;
 }
+h2 , h3 {border:1px solid orange;}
+li {color:red;}
+li li{color:green;}
+.ejemplo{background:blue;
+color:white;
+}
+h2+p{background:green;
+color:black;
+ }
+h3[class="antes"]{background:pink
+
+ }
+a{border:8px solid green;}
+img[alt="ejemplo"]{border:1px solid grey;}
