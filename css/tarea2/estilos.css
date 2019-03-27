@@ -1,9 +1,10 @@
 h1{text-align: center;}
 legend{/*border:1px solid black;*/
-     border-style: solid;
+     border-style: solid ;
      border-color:black;
      border-width: thin;
-    border-radius: 25px;}
+    border-radius: 25px;
+background-color: white; }
 
 #tabla1{
 	background-color: lightgrey;
@@ -15,12 +16,10 @@ legend{/*border:1px solid black;*/
 	border-radius: 25px; 
 }
 #tabla3 {
-		background-color: brown;
+		background-color: rosybrown;
 	border-radius: 25px; 
 }
 ul { list-style-type: none }
-
-
 
 
 /**h2{
