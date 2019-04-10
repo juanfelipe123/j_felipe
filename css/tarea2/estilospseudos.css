@@ -1,0 +1,92 @@
+#gallery-container {
+	position: relative;
+	width: 500px;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 1px #aaaaaa solid;
+
+}
+
+#text-container{
+    position: last;
+	width: 360px;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 1px #aaaaaa solid;
+}
+img.gallery-preview{
+  width:50px;
+	height:50px;
+  
+}
+
+img.gallery-fullsize {
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	display: none;
+	width: 200px;
+	height: auto;
+}
+
+.gallery-item {
+	display: inline-block;
+		
+}
+
+img.gallery-preview:hover ~ img.gallery-fullsize {
+	display: block;
+	
+}
+.enunciado{color:blue;}
+/* Con estados los enlaces sin utilizar son de color
+EC7063 y no tienen subrayado*/
+.noleido {
+	color:#EC7063; 
+    text-decoration:none;
+}
+
+
+/*Con estados, los enlaces al 
+pasar el ratón por encima cambian a color verde claro*/
+
+a:link{color:lightgreen;}
+/* Con estados, los enlaces ya visitados
+serán de color azul claro*/
+
+.marcado{
+	color:#53baf0;
+	
+
+}
+/*Con posición, el primer li tendrá el fondo verde claro*/
+li:first-child{background-color: green;
+}
+
+/*Con posición, el último hijo li del primer ul tendrá el fondo rosa*/
+ul:first-of-type li:last-child{ background-color: #f382cd }
+/*Con posición, el último ul tendrá un borde de 1px contínuo y negro*/
+ul:last-child {border: 1px;}
+
+/*Con posición, el segundo hijo del último ul será de color de letra gris*/
+ul:nth-
+
+/*Con Pseudoelementos, la primera letra de los párrafos p será 
+2 veces más grande y de color EC7063*/
+p:last {text-anchor: 3px solid;
+color:#EC7063;}
+/* Con Peudoelementos, la primera línea de los párrafos p será un 
+20% mayor y de color (100,100,207)*/ 
+
+
+/*Con Pseudoelemnetos, después de cada párrafo p se 
+añadirá el texto "Fin de Párrafo" con
+un borde azul clarito de 5px y contínuo*/
