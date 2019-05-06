@@ -28,6 +28,10 @@ width: 50%}
 th ,td{
 	border:1px solid white;
 }
+table{border-collapse: collapse;
+text-align: center;
+font-family: sans-serif;}
+td,th{border}
 /*Centrado de la tabla con un ancho prefijado.*/
 /* Dar color de fondo verde y color de letra violeta a todas las celdas que tiene colspan="2" o colspan="3"*/
 [colspan="2"],[colspan="3"]{
