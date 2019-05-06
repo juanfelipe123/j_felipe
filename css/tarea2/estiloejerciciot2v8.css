@@ -1,0 +1,43 @@
+    /*La tabla tiene el texto está centrado y la letra es sans-serif. La tabla tiene un solo borde rosa claro*/
+    table{border-collapse:collapse;
+        text-align: center;
+        font-family: sans-serif;}
+     table, td, tr {border: 1px solid lightpink;
+        text-align: center}
+     caption {background-color: lightpink;
+        text-align:center 
+        color:green; }
+    /*Da color de fondo rosaclaro y un tamaño de 18 píxeles al título de la tabla.*/
+    /*Utilizando únicamente pseudoselectores da color de fondo rosaclaro a las 777casillas que contienen la descripcion del contenido de la fila y un tamaño de 18 píxeles.*/
+    /*Utilizando únicamente pseudoselectores da color de fondo verde claro a la celda del chip.*/
+    /*Cambiar los estado de los enlaces para que:
+         Nunca estén subrayados.
+         Si están visitados se muestren en violeta.
+         Si no están visitado se muestren en verde.*/
+    /*Utilizando pseudoselectores haced que cuando pasemos el ratón sobre la celda que contiene el mayor valor de cada fila aumente el tamaño de letra al 80% mayor y cambie el color de fondo a gris y la letra sea verde. ¿Qué ocurre con las celdas que ya tienen color de fondo o color de letra?*/
+    /*Utilizando Pseudoelementos Haz que la primera letra del nombre de cada móvil tenga el doble de tamaño y esté en negita.*/
+    /*Añade un borde verde que esté separado 10 px a los campos obligatorios.*/
+    /*Añade un * en rojo y como superíndice detrás de las etiquetas que acompañan a los campos del formulario.*/
+    /*Cambia el color de fondo del botón del formulario a verde claro y el color del texto a gris.*/
+    tr td: nth-child (7):hover,
+    tr th: nth-child (2):hover,
+    tr td: last-child:hover {
+        font-size: 1.8em;
+        background-color: grey;
+        color:green;
+    }
+
+.primera{background-color: lightpink;}
+#chipset{background-color: lightgreen;}
+input:required
+input[type="button"]{background-color: lightgreen;
+color:grey;}
+img{width: 200px ;}
+a:link{background-color:green;
+color:violet; } 
+a:visited{background-color: green;
+border-color: yellow;
+color:violet;}
+label:after{color:red;
+content: "*"
+vertical-align:super;}
