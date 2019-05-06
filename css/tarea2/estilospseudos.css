@@ -90,3 +90,5 @@ color:#EC7063;}
 /*Con Pseudoelemnetos, después de cada párrafo p se 
 añadirá el texto "Fin de Párrafo" con
 un borde azul clarito de 5px y contínuo*/
+p:first-of-type p:last-child{border: 2px solid;
+border-color: blue}
